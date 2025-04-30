@@ -6,7 +6,7 @@ const OfferService = () => {
   const navigate = useNavigate();
   
 
-    /*gas*/
+    /*ga*/
   const [formData, setFormData] = useState({
     title: '',
     category: '',
