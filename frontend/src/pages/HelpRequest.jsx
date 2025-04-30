@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const HelpRequest = () => {
   const navigate = useNavigate();
   
-  // State for form data
+  // State for form 
   const [formData, setFormData] = useState({
     title: '',
     category: '',
