@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
+//update new 
 const ServicesList = () => {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -14,6 +15,8 @@ const ServicesList = () => {
     price: ''
   });
 
+  //llss
+  //update 
   // Fetch all services on component mount
   useEffect(() => {
     fetchServices();
