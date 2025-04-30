@@ -14,6 +14,7 @@ const ServicesList = () => {
     price: ''
   });
 
+  //update 
   // Fetch all services on component mount
   useEffect(() => {
     fetchServices();
